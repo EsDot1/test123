@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "../card/Card.component";
 import "./cardList.styles.css";
 
-export const CardListD = props => {
+export const CardList = props => {
   console.log(props);
   return (
     <div className="card-list">
