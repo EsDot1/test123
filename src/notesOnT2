@@ -1,0 +1,206 @@
+
+PS C:\Users\essay\monsters-rolodex\bring back> cd
+PS C:\Users\essay\monsters-rolodex\bring back> git clone https://github.com/EsDot1/test123.git
+Cloning into 'test123'...
+remote: Enumerating objects: 34, done.
+remote: Counting objects: 100% (34/34), done.
+remote: Compressing objects: 100% (32/32), done.
+
+Unpacking objects: 100% (34/34), done.
+PS C:\Users\essay\monsters-rolodex\bring back> CD
+PS C:\Users\essay\monsters-rolodex\bring back> git status
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\essay\monsters-rolodex\bring back> cd..
+PS C:\Users\essay\monsters-rolodex> git status
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\essay\monsters-rolodex> cd bring back
+Set-Location : A positional parameter cannot be found that accepts argument 'back'.
+At line:1 char:1
++ cd bring back
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCom 
+   mand
+ 
+PS C:\Users\essay\monsters-rolodex> cd bring back/
+Set-Location : A positional parameter cannot be found that accepts argument 'back/'.
+At line:1 char:1
++ cd bring back/
++ ~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCom 
+   mand
+ 
+PS C:\Users\essay\monsters-rolodex> cd bring back/
+Set-Location : A positional parameter cannot be found that accepts argument 'back/'.
+At line:1 char:1
++ cd bring back/
++ ~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCom 
+   mand
+ 
+PS C:\Users\essay\monsters-rolodex> cd
+PS C:\Users\essay\monsters-rolodex> cd test123/
+PS C:\Users\essay\monsters-rolodex\test123> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+PS C:\Users\essay\monsters-rolodex\test123> cd
+PS C:\Users\essay\monsters-rolodex\test123> cd..
+PS C:\Users\essay\monsters-rolodex> ls
+
+
+    Directory: C:\Users\essay\monsters-rolodex
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       12/11/2019     17:01                bring back
+d-----       12/11/2019     14:49                test123
+
+
+PS C:\Users\essay\monsters-rolodex> cd bring_back/
+cd : Cannot find path 'C:\Users\essay\monsters-rolodex\bring_back\' because it does not exist.
+At line:1 char:1
++ cd bring_back/
++ ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\essay\...dex\bring_back\:String) [Set-Location 
+   ], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+ 
+PS C:\Users\essay\monsters-rolodex> cd bring back
+Set-Location : A positional parameter cannot be found that accepts argument 'back'.
+At line:1 char:1
++ cd bring back
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCom 
+   mand
+ 
+PS C:\Users\essay\monsters-rolodex> cd bring back/
+Set-Location : A positional parameter cannot be found that accepts argument 'back/'.
+At line:1 char:1
++ cd bring back/
++ ~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCom 
+   mand
+ 
+PS C:\Users\essay\monsters-rolodex> cd bring/
+cd : Cannot find path 'C:\Users\essay\monsters-rolodex\bring\' because it does not exist.
+At line:1 char:1
++ cd bring/
++ ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\essay\monsters-rolodex\bring\:String) [Set-Loc 
+   ation], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+ 
+PS C:\Users\essay\monsters-rolodex> cd 'bring back/'
+PS C:\Users\essay\monsters-rolodex\bring back> cd test123
+
+
+
+
+PS C:\Users\essay\monsters-rolodex\bring back\test123> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/components/card-list/CardList.component.jsx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\essay\monsters-rolodex\bring back\test123> git add src/components/card-list/CardList.component.jsx
+PS C:\Users\essay\monsters-rolodex\bring back\test123> git push
+Everything up-to-date
+PS C:\Users\essay\monsters-rolodex\bring back\test123> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   src/components/card-list/CardList.component.jsx
+
+PS C:\Users\essay\monsters-rolodex\bring back\test123> git commit -m "adding"
+[master 7582f49] adding
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\essay\monsters-rolodex\bring back\test123> git push
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 550 bytes | 183.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/EsDot1/test123.git
+   78b7ea9..7582f49  master -> master
+PS C:\Users\essay\monsters-rolodex\bring back\test123> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+PS C:\Users\essay\monsters-rolodex\bring back\test123> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/components/card-list/CardList.component.jsx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\essay\monsters-rolodex\bring back\test123> git add src/components/card-list/CardList.component.jsx
+PS C:\Users\essay\monsters-rolodex\bring back\test123> git commit -m "adding"
+[master d6521dd] adding
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\essay\monsters-rolodex\bring back\test123> git push
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 547 bytes | 182.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/EsDot1/test123.git
+   7582f49..d6521dd  master -> master
+PS C:\Users\essay\monsters-rolodex\bring back\test123> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/components/card-list/CardList.component.jsx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\essay\monsters-rolodex\bring back\test123> git add src/components/card-list/CardList.component.jsx
+PS C:\Users\essay\monsters-rolodex\bring back\test123> git commit -m "component name change"
+[master 3ceb7d7] component name change
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\essay\monsters-rolodex\bring back\test123> git push
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 561 bytes | 187.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/EsDot1/test123.git
+   d6521dd..3ceb7d7  master -> master
+PS C:\Users\essay\monsters-rolodex\bring back\test123> git pull
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 3), reused 5 (delta 2), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+From https://github.com/EsDot1/test123
+   3ceb7d7..2fed335  master     -> origin/master
+Updating 3ceb7d7..2fed335
+Fast-forward
+ src/components/card-list/CardList.component.jsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\essay\monsters-rolodex\bring back\test123>
+PS C:\Users\essay\monsters-rolodex\bring back\test123>

@@ -1,0 +1,270 @@
+
+
+
+
+
+                                    cd
+PS C:\Users\essay\monsters-rolodex> cd test123
+PS C:\Users\essay\monsters-rolodex\test123> ls
+
+
+    Directory: C:\Users\essay\monsters-rolodex\test123
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       10/11/2019     08:12                build
+d-----       09/11/2019     13:11                node_modules
+d-----       09/11/2019     13:03                publiclic
+d-----       10/11/2019     08:13                srctignore                                                    kage-lock.json
+-a----       26/10/1985     09:15            310 .gikage.jsontignore                                             DME.md
+-a----       09/11/2019     13:03         533333 pacDME1.mdkage-lock.json
+-a----       09/11/2019     13:03            625 package.json
+-a----       12/11/2019     14:44              9 README.md
+-a----       26/10/1985     09:15           2891 README1.md
+
+
+PS C:\Users\essay\monsters-rolodex\test123> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        README1.md
+        package-lock.json
+        package.json
+        public/
+        src/
+
+nothing added to commit but untracked files present
+(use "git add" to track)
+PS C:\Users\essay\monsters-rolodex\test123> git add
+.gitignore
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+PS C:\Users\essay\monsters-rolodex\test123> git add
+README1.md
+warning: LF will be replaced by CRLF in README1.md.
+The file will have its original line endings in your working directory
+PS C:\Users\essay\monsters-rolodex\test123> got add
+package-lock.json
+got : The term 'got' is not recognized as the name 
+of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a 
+path was included, verify that the path is correct 
+and try again.
+At line:1 char:1
++ got add package-lock.json
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (got 
+   :String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundExcep 
+   tion
+ 
+PS C:\Users\essay\monsters-rolodex\test123> git add
+package-lock.json
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+PS C:\Users\essay\monsters-rolodex\test123> git add
+package.json
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+PS C:\Users\essay\monsters-rolodex\test123> git add
+public/
+warning: LF will be replaced by CRLF in public/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/manifest.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/robots.txt.
+The file will have its original line endings in your working directory
+PS C:\Users\essay\monsters-rolodex\test123> git add
+src/
+warning: LF will be replaced by CRLF in src/App.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/App.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/App.test.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/index.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/serviceWorker.js.
+The file will have its original line endings in your working directory
+PS C:\Users\essay\monsters-rolodex\test123> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+        new file:   README1.md
+        new file:   package-lock.json
+        new file:   package.json
+        new file:   public/favicon.ico
+        new file:   public/index.html
+        new file:   public/logo192.png
+        new file:   public/logo512.png
+        new file:   public/manifest.json
+        new file:   public/robots.txt
+        new file:   src/App.css
+        new file:   src/App.js
+        new file:   src/App.test.js
+        new file:   src/components/card-list/CardList.component.jsx
+        new file:   src/components/card-list/cardList.styles.css
+        new file:   src/components/card/Card.component.jsx
+        new file:   src/components/card/card.styles.css
+        new file:   src/components/searchBox/SearchBox.component.jsx
+        new file:   src/components/searchBox/searchBox.styles.css
+        new file:   src/index.css
+        new file:   src/index.js
+        new file:   src/logo.svg
+        new file:   src/serviceWorker.js
+
+PS C:\Users\essay\monsters-rolodex\test123> git commit -m "adding test project"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Commander@DESKTOP-TB7E7TP.(none)')
+PS C:\Users\essay\monsters-rolodex\test123> git push
+Everything up-to-date
+PS C:\Users\essay\monsters-rolodex\test123> git commit -m "adding"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Commander@DESKTOP-TB7E7TP.(none)')
+PS C:\Users\essay\monsters-rolodex\test123>   git config --global user.email "you@example.com"
+PS C:\Users\essay\monsters-rolodex\test123>   git config --global user.name "Your Name"
+PS C:\Users\essay\monsters-rolodex\test123>  git config --global user.email "essayzar@hotmail.co.uk"
+PS C:\Users\essay\monsters-rolodex\test123> git commit -m "adding"
+[master 78b7ea9] adding
+ 23 files changed, 13859 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README1.md
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/index.html
+ create mode 100644 public/logo192.png
+ create mode 100644 public/logo512.png
+ create mode 100644 public/manifest.json
+ create mode 100644 public/robots.txt
+ create mode 100644 src/App.css
+ create mode 100644 src/App.js
+ create mode 100644 src/App.test.js
+ create mode 100644 src/components/card-list/CardList.component.jsx
+ create mode 100644 src/components/card-list/cardList.styles.css
+ create mode 100644 src/components/card/Card.component.jsx
+ create mode 100644 src/components/card/card.styles.css
+ create mode 100644 src/components/searchBox/SearchBox.component.jsx
+ create mode 100644 src/components/searchBox/searchBox.styles.css
+ create mode 100644 src/index.css
+ create mode 100644 src/index.js
+ create mode 100644 src/logo.svg
+ create mode 100644 src/serviceWorker.js
+PS C:\Users\essay\monsters-rolodex\test123> git push
+Enumerating objects: 32, done.
+Counting objects: 100% (32/32), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (31/31), done.
+Writing objects: 100% (31/31), 176.38 KiB | 5.04 MiB/s, done.
+Total 31 (delta 0), reused 0 (delta 0)
+To https://github.com/EsDot1/test123.git
+   cbd1fb5..78b7ea9  master -> master
+PS C:\Users\essay\monsters-rolodex\test123> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+PS C:\Users\essay\monsters-rolodex\test123> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+PS C:\Users\essay\monsters-rolodex\test123> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+PS C:\Users\essay\monsters-rolodex\test123> cd..
+PS C:\Users\essay\monsters-rolodex> cd test123/
+PS C:\Users\essay\monsters-rolodex\test123> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+PS C:\Users\essay\monsters-rolodex\test123> cd..
+PS C:\Users\essay\monsters-rolodex> cd 'bring back/'
+PS C:\Users\essay\monsters-rolodex\bring back> cd test123/
+PS C:\Users\essay\monsters-rolodex\bring back\test123> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+PS C:\Users\essay\monsters-rolodex\bring back\test123> cd..
+PS C:\Users\essay\monsters-rolodex\bring back> cd..
+PS C:\Users\essay\monsters-rolodex> cd test123
+PS C:\Users\essay\monsters-rolodex\test123> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+PS C:\Users\essay\monsters-rolodex\test123> git pull
+remote: Enumerating objects: 13, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 8 (delta 4), reused 6 (delta 2), pack-reused 0
+Unpacking objects: 100% (8/8), done.
+From https://github.com/EsDot1/test123
+   78b7ea9..3ceb7d7  master     -> origin/master
+Updating 78b7ea9..3ceb7d7
+Fast-forward
+ src/components/card-list/CardList.component.jsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\essay\monsters-rolodex\test123> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+PS C:\Users\essay\monsters-rolodex\test123> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/components/card-list/CardList.component.jsx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\essay\monsters-rolodex\test123> git add src/components/card-list/CardList.component.jsx
+PS C:\Users\essay\monsters-rolodex\test123> git commit -m "name restore"
+[master 2fed335] name restore
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\essay\monsters-rolodex\test123> git push
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 550 bytes | 183.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/EsDot1/test123.git
+   3ceb7d7..2fed335  master -> master
+PS C:\Users\essay\monsters-rolodex\test123>
